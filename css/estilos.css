@@ -1,0 +1,52 @@
+body{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #008080
+}
+
+#logo{
+    width: 10em;
+}
+
+#logoredes{
+    width: 2em;
+}
+
+header{
+    background-color: #3ccc
+}
+
+#imagenjairo{
+    margin-top: 170px;
+}
+
+#desayuno{
+    margin-top: 100px;
+}
+
+li{
+    margin-right: 90px;
+}
+
+.comentarios{
+    font-size: 30px;
+}
+
+@media(max-width:1080px){
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    li{
+        margin-right: 0px;
+    }
+    
+    #imagenjairo{
+        margin-top: 0px;
+    }
+
+    #desayuno{
+        margin-top: 0px;
+    }
+}
